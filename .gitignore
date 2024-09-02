@@ -1,0 +1,27 @@
+```plaintext
+# Ignorar arquivos de credenciais e configuração local
+*.env
+*.config
+*.log
+*.bak
+
+# Ignorar arquivos e pastas específicos do MySQL
+*.sql
+mysql-backups/
+
+# Enunciado do Projeto: Sistema de Gerenciamento de Biblioteca
+
+O objetivo deste projeto é desenvolver um sistema de gerenciamento de biblioteca utilizando SQL. O sistema deve ser capaz de armazenar informações sobre autores, livros e empréstimos. Além disso, deve permitir a consulta de dados como a listagem de livros e autores, e a gestão dos empréstimos de livros, incluindo a possibilidade de marcar um empréstimo como devolvido e remover registros de livros e empréstimos.
+
+## Requisitos
+
+- Criação de um banco de dados chamado `Biblioteca`.
+- Tabelas:
+  - `Autores`: contendo as colunas `AutorID`, `Nome`, e `Nacionalidade`.
+  - `Livros`: contendo as colunas `LivroID`, `Titulo`, `AutorID`, `AnoPublicacao`, e `Genero`.
+  - `Empréstimos`: contendo as colunas `EmpréstimoID`, `LivroID`, `DataEmprestimo`, `DataDevolucao`, e `NomeUsuario`.
+- Inserção de dados nas tabelas para simular a operação de uma biblioteca.
+- Implementação de consultas para listar livros com seus respectivos autores e listar empréstimos em aberto.
+- Funções para atualizar a data de devolução de um empréstimo e para remover livros e os empréstimos associados a eles.
+
+Este projeto é uma excelente oportunidade para praticar a criação e manipulação de bancos de dados relacionais utilizando SQL.
