@@ -1,0 +1,36 @@
+# Projeto Biblioteca
+
+Este projeto simula o gerenciamento de uma biblioteca utilizando SQL. Inclui a criação de tabelas para autores, livros e empréstimos, inserção de dados e consultas SQL para gerenciamento das operações da biblioteca.
+
+## Estrutura do Projeto
+
+1. **Autores**: Tabela que armazena informações sobre os autores dos livros.
+2. **Livros**: Tabela que armazena informações sobre os livros disponíveis na biblioteca.
+3. **Empréstimos**: Tabela que armazena as informações sobre os empréstimos de livros feitos pelos usuários.
+
+## Funcionalidades
+
+- **Criação de Banco de Dados e Tabelas**: Criação das tabelas `Autores`, `Livros`, e `Empréstimos`.
+- **Inserção de Dados**: Inserção de registros nas tabelas para simular os dados da biblioteca.
+- **Consultas**: 
+  - Listar todos os livros com seus respectivos autores.
+  - Listar todos os empréstimos em aberto.
+- **Atualização de Dados**: Atualizar a data de devolução de um empréstimo.
+- **Exclusão de Dados**: Remover um livro e os registros de empréstimos associados a ele.
+
+## Instruções de Uso
+
+1. Clone o repositório: 
+   ```bash
+   git clone https://github.com/Cristina1607/Sistema_de_Gerenciamento_de_Biblioteca.git
+2. Execute os scripts SQL em um ambiente MySQL ou outro ambiente compatível.
+3. Utilize as consultas fornecidas para explorar e manipular os dados.
+
+Dependências
+MySQL ou outro SGBD compatível.
+
+Autor
+Cristina - @Cristina1607
+
+Licença
+Este projeto está licenciado sob a MIT License.
